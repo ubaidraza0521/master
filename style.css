@@ -79,7 +79,8 @@ body {
     padding-left: 25px;
 
 }
-.mobile-nav{
+
+.mobile-nav {
     display: none;
 }
 
@@ -294,6 +295,7 @@ span {
     position: relative;
     border-radius: 7px;
     overflow: hidden;
+    padding: 5px;
 }
 
 .s-img:hover .img-logo {
@@ -478,10 +480,11 @@ span {
 .blog-author {
     font-size: 14px;
     color: #666;
-    margin-bottom: px;
-
-
+    margin-left: -50px;
+    margin-right: 59px;
 }
+
+
 
 .icon1 {
     margin: 0px 7px -5px 8px;
@@ -931,18 +934,18 @@ hr {
 }
 
 .less {
-    position: absolute;
-    left: 18px;
-    top: -2px;
+    position: relative;
+    left: 39px;
+    top: -7px;
     font-size: 24px;
     border: none;
     color: #2C3D5F;
 }
 
 .add {
-    position: absolute;
-    left: 130px;
-    top: 9px;
+    position: relative;
+    left: -47px;
+    top: 2px;
     font-size: 24px;
     border: none;
     color: #2C3D5F;
@@ -1317,7 +1320,7 @@ hr {
         left: 450px;
     }
 
-    
+
     .counter {
         display: flex;
         width: 100vw;
@@ -1428,7 +1431,7 @@ hr {
 
     .nav {
         font-size: 14px;
-        display:none;
+        display: none;
     }
 
     p {
@@ -1533,10 +1536,11 @@ hr {
     }
 
     .payment-method {
-        
+
         margin-left: 145px;
     }
-    .mobile-nav{
+
+    .mobile-nav {
         display: block;
         height: 22px;
         width: 22px;
@@ -1545,7 +1549,297 @@ hr {
 
 
 
+}
+
+/* ============================480px======================= */
+@media (max-width:480px) {
+    .logo-1 {
+        width: 70px;
     }
 
-    /* ============================480px======================= */
-    @media (max-width:480px) {}
+    .images {
+        width: 17px;
+        margin-left: 7px;
+    }
+
+    .p-head {
+        font-size: 40px;
+        width: 300px;
+        line-height: 45px;
+    }
+
+    .content-area .para {
+        width: 270px;
+    }
+
+    .banner .btn {
+        padding: 10px 16px;
+    }
+
+    .icon--1 {
+        width: 85px;
+    }
+
+    .img21 {
+        width: 330px;
+        height: 285px;
+        margin-top: 30px;
+    }
+
+    .sale {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .first-layout {
+        gap: 20px;
+    }
+
+    .women {
+        width: 250px;
+        height: 510px;
+    }
+
+    .men {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .accessories {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .new {
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .shoes {
+        width: 320px;
+        height: 160px;
+
+    }
+
+    .box {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .tag {
+        font-size: 14px;
+    }
+
+    .h-2 {
+        font-size: 40px;
+    }
+
+    .line {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .products-container {
+        padding-right: 19px;
+    }
+
+    .street-style {
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .new-arrivals {
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .get-upto {
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+
+    .t-tag {
+        font-size: 14px;
+    }
+
+    .h2 {
+        font-size: 35px;
+    }
+
+    .foot {
+        margin-top: 25px;
+    }
+
+    .foot h2 {
+        font-size: 16px;
+    }
+
+    .side-1 p {
+
+        width: 244px;
+    }
+
+    .side-1 {
+
+        margin-left: -77px;
+        margin-right: 55px;
+    }
+
+    .side-2 {
+        padding: 2px;
+        margin-right: 20px;
+        margin-left: -74px;
+    }
+
+    .side-3 {
+        margin-left: -74px;
+        margin-right: 40px;
+        padding: 8px;
+    }
+
+    .side-4 {
+        padding: 5px;
+        margin-left: -74px;
+        margin-right: 40px;
+        padding-right: 1px;
+    }
+
+    .payment-method {
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+
+    .blog-card {
+        font-size: 12px;
+
+    }
+
+    .review-heading {
+        margin-left: 55px;
+    }
+
+    .review .duration {
+
+        margin-left: 35px;
+    }
+
+    .buy {
+        width: 270px;
+        font-size: 17px;
+        margin-top: 22px;
+        margin-left: 10px;
+    }
+
+    .count {
+        margin-right: 17px;
+    }
+
+    .detail-foam {
+        margin-left: 197px;
+    }
+
+    .terms {
+        width: 200px;
+    }
+
+    .add-cart {
+        width: 215px;
+        margin-left: -25px;
+    }
+
+    .foam-heading {
+        color: #2C3D5F;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .price {
+        font-size: 25px;
+    }
+
+    .store-details {
+        align-items: center;
+        padding-left: 20px;
+    }
+
+    .main {
+        margin-left: 4px;
+        width: 200px;
+        height: 255px;
+    }
+
+    .side-img {
+        margin-top: 6px;
+        width: 55px;
+        height: 58px;
+    }
+
+    .side1img {
+        margin-top: 0px;
+        width: 55px;
+        height: 58px;
+
+    }
+
+    .left-arrow {
+        width: 25px;
+        height: 25px;
+        top: 133px;
+        left: 4px;
+
+    }
+
+    .zoom3 {
+        width: 25px;
+        height: 25px;
+        top: 12px;
+        left: 177px;
+    }
+
+    .right-arrow {
+        width: 25px;
+        height: 25px;
+        top: 133px;
+        left: 177px;
+    }
+
+    .swipe div {
+        gap: 29px;
+    }
+
+    .blog-card {
+        width: 260px;
+        height: 390px;
+        padding: 10px;
+    }
+    .blog-img{
+        width:220px ;
+        height: 150px;
+    }
+    .blog-head{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    .blog-excerpt{
+        line-height: 1.4;
+    }
+    .blog-date, .blog-author {
+    font-size: 13px;
+    
+    margin-left: -4px;
+    margin-right: 3px;
+}
+.read-more{
+    font-size: 13px;
+    width: 232px;
+}
+}

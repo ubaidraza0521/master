@@ -385,6 +385,12 @@ span {
 
 
 }
+.latest {
+    font-weight: 600;
+    font-size: 50px;
+    color: #2C3D5F;
+    margin-bottom: 10px;
+}
 
 .t-tag {
     background: #ffffff;
@@ -1843,3 +1849,4 @@ hr {
     width: 232px;
 }
 }
+/* ==================end=================== */
